@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.rar filter=lfs diff=lfs merge=lfs -text
 /NOD_1/SLIDE2C1.tif filter=lfs diff=lfs merge=lfs -text
